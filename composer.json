@@ -1,0 +1,35 @@
+{
+    "name": "yidas/yii2-access-router",
+    "description": "Yii 2 user authentication & authorization router",
+    "keywords": [
+        "yii2",
+        "framework",
+        "access",
+        "access-router",
+        "access-contorl",
+        "authentication",
+        "authorization "
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yidas/yii2-access-router/issues?state=open",
+        "source": "https://github.com/yidas/yii2-access-router"
+    },
+    "authors": [
+        {
+            "name": "Nick Tsai",
+            "email": "myintaer@gmail.com",
+            "homepage": "https://github.com/yidas/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yidas\\filters\\": "src"
+        }
+    }
+}
