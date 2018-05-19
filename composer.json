@@ -1,0 +1,33 @@
+{
+    "name": "yidas/yii2-access-router",
+    "description": "Simple access control router for Yii2 Framework",
+    "keywords": [
+        "yii2",
+        "framework",
+        "access",
+        "access router",
+        "access contorl"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yidas/yii2-access-router/issues?state=open",
+        "source": "https://github.com/yidas/yii2-access-router"
+    },
+    "authors": [
+        {
+            "name": "Nick Tsai",
+            "email": "myintaer@gmail.com",
+            "homepage": "https://github.com/yidas/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yidas\\filters\\": "src"
+        }
+    }
+}
