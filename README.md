@@ -76,7 +76,7 @@ return [
     'bootstrap' => ['log', 'access'],
     'components' => [
         'access' => [
-            'class' => 'yidas\filters\accessRouter',
+            'class' => 'yidas\filters\AccessRouter',
             'except' => ['site/login', 'site/register'],
             'denyCallback' => function() {
                 return Yii::$app->response->redirect(['/site/login']);
@@ -88,7 +88,7 @@ return [
 ];
 ```
 
-1. Create a component called `access` which uses `yidas\filters\accessRouter` as class with configuration.
+1. Create a component called `access` which uses `yidas\filters\AccessRouter` as class with configuration.
 
 2. Add this `access` component into `bootstrap` list.
 
